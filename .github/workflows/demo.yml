@@ -2,7 +2,7 @@ name: Demo Workflow
 on: workflow_run
 jobs:
  print:
-  runs-on: ubuntu-latestl
+  runs-on: ubuntu-latest
   steps:
    - name: Print to console
     run: echo Hello GH Actions!
